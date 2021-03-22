@@ -1,24 +1,3 @@
-// Name: Abdul-Rahman El-Saied
-// CIS 25, Benjamin Allen
-// 11/17/2019
-// IN-CLASS ASSIGNMENT DAY 24
-// This program implemeents the required exercises + EC
-
-
-
-/* file: linkedlist-exercise.cpp
- * -----
- *  A partial implementation of a linked list. Note: this is not to
- *  be taken as an example of a particularly efficient or clean
- *  implementation of a linked list. It mainly exists for the
- *  purpose of the exercise below.
- *
- *  Exercise: implement two recursive functions:
- *
- *  void recursivePrintBackwards(node *head)
- *    void recursiveDeleteList(node *head)
- *  */
-
 
 #include <iostream>
 #include <string>
@@ -104,20 +83,6 @@ void printList(node *head){
 
 // prints list backwards
 void recursivePrintBackwards(node *head){
-    // REPLACE THIS COMMENT WITH YOUR CODE. note: YOU MUST USE RECURSION.
-    // tip 1: make sure your function works correctly when
-    // provided with an empty list
-    //
-    // tip 2: what are your base cases? what's your recursive case?
-    // write 'em down in pseudocode before you write your function.
-    //
-    // note: your full implementation could very well be shorter
-    // than this comment. If you're using any type of loop,
-    // you're doing it wrong. If you're writing a very long function,
-    // you're probably doing it wrong.
-    //
-    // For a small amount of extra credit, also implement a recursive printForwards()
-    // function.
     if(head == nullptr){
         return;
     }
