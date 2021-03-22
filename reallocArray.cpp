@@ -1,7 +1,3 @@
-// Name: Abdul-Rahman El-Saied
-// CIS 25
-// Benjamin Allen
-// 11/11/2019
 // This program defines a reallocArray function, which returns a pointer to a heap-allocated array with the same items as the original array, but with twice the capacity.
 
 #include <iostream>
