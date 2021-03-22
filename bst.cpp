@@ -1,6 +1,3 @@
-// Name: Abdul El-Saied
-// CIS 25 IN-CLASS DAY 27
-// 11/26/2019
 // This program implements various functions relating to binary search trees, and tests them in the main function.
 
 #include <iostream>
