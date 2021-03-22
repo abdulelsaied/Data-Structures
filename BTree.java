@@ -9,12 +9,7 @@ public class BTree<T extends Comparable<T>> {
     protected Node<T> root;
 
     /**
-     * Btree node. supports getting items/children at given indices and counts
-     * of items/children. Allows for setting child at given index. Should hold
-     * the invariant that getItemCount() + 1 == getChildrenCount(). Holds
-     * items of type T.
-     * ith child (subtree) has elements less than ith item, and i+1th child
-     * (subtree) has elements greater than ith item and less than i+1th item.
+     * Btree node.
      */
     public interface Node<T> {
 
